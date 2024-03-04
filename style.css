@@ -1,0 +1,97 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+.main-container {
+  width: 100dvw;
+  height: 100dvh;
+}
+
+.navbar {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 16rem;
+  border-bottom: 2px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #666666;
+}
+
+.item {
+  margin: 2px 16px;
+}
+
+.item:hover:not(.humberger) {
+  color: #387ed1;
+}
+
+.logo-image {
+  width: 140px;
+}
+
+.body-container {
+  margin: 4rem auto 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-image {
+  width: 750px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+h1 {
+  color: #424242;
+  font-weight: 500;
+}
+
+h3 {
+  color: #666666;
+  font-weight: 400;
+}
+
+.sign-up {
+  color: #fff;
+  padding: 2px 4px;
+  margin-top: 26px;
+  background-color: #387ed1;
+  border-radius: 2px;
+  border: none;
+  width: 150px;
+  height: 40px;
+  font-size: large;
+  font-weight: 500;
+}
+
+.sign-up:hover {
+  background-color: #000;
+}
