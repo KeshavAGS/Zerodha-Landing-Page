@@ -8,7 +8,7 @@ Highlights
 💡 Informative Content: Clearly communicates the features and benefits of ZeroDha to visitors.
 📈 Dynamic Components: Incorporated interactive elements to enhance user engagement.
 Getting Started
-Clone the repository: git clone https://github.com/your-username/zerodha-landing-page.git
+Clone the repository: [git clone https://github.com/your-username/zerodha-landing-page.git](https://keshavags.github.io/Zerodha-Landing-Page/)
 Open index.html in your preferred browser to preview the landing page.
 Contribution Guidelines
 Fork the repository, create a new branch, and submit a pull request with your enhancements.
